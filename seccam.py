@@ -170,9 +170,9 @@ class LastMovementDetected(threading.Thread):
         self.start()
     def run(self):
         count = 0
-        time.sleep(conf["camera_wait_time"])
         # This method runs in a separate thread
         while not self.terminated:
+            time.sleep(conf["camera_wait_time"])
             # Wait for an image to be written to the stream
             if self.bufwriteevent.wait():
                 try:
