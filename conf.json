@@ -1,0 +1,9 @@
+{
+    "camera_warmup_time": 2.5,
+    "delta_thresh": 5,
+    "resolution": [640, 480],
+    "fps": 16,
+    "min_area": 5000,
+    "max_snapshots": 30,
+    "camera_wait_time": 1
+}
